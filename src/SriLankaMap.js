@@ -1,5 +1,5 @@
 import React from "react";
-
+import './srilanka.css';
 
 const SriLankaMap = () =>{
     return(
