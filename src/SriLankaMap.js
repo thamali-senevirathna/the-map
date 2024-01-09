@@ -5,7 +5,7 @@ import sl_map from './svg/lk.svg'
 const SriLankaMap = () => {
   return (
     <div className="map-container">
-      <img alt={"Sri Lankan Map"} src={sl_map} style={{width:"35%"}}/>
+      <img className="map-img" alt={"Sri Lankan Map"} src={sl_map} style={{width:"35%"}}/>
     </div>
   );
 };
