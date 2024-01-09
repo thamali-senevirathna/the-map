@@ -1,22 +1,14 @@
 import React from "react";
 import "./srilanka.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faMapMarker } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapMarker } from '@fortawesome/free-solid-svg-icons';
 
 const SriLankaMap = () => {
   return (
-    <div className="sri-lanka-map-container">
+    <div className="map-container">
       <svg
-        baseprofile="tiny"
-        fill="#7c7c7c"
-        height="1745"
-        stroke="#ffffff"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
         version="1.2"
         viewbox="0 0 1000 1745"
-        width="1000"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -147,6 +139,13 @@ const SriLankaMap = () => {
         <circle cx="302.6" cy="1147.4" id="0"></circle>
         <circle cx="616.8" cy="745.3" id="1"></circle>
         <circle cx="149.2" cy="439.8" id="2"></circle>
+     <FontAwesomeIcon 
+     icon={faMapMarker}
+     style={{ color: '#e74c3c', transform: 'translate(-50%, -100%)' }}
+     size="2x"
+     x="300"
+     y="200"
+     />
       </svg>
     </div>
   );
