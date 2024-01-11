@@ -2,16 +2,22 @@ body{
     background-color: rgb(183, 229, 245);
     margin: 0;
     height: 100%;
-    overflow: hidden;
+   overflow: hidden;
 }
-img{
-    filter: drop-shadow(3px 3px 1px rgb(4 1 3 / 0.5));
-}
-img:hover {
-    filter: brightness(1.5); /* Adjust brightness to make it red or any color you like */
-}
+svg {
+    filter: drop-shadow(2px 19px 3px rgb(4 1 3 / 0.5));
+    fill:#1b63ab;
+  }
+
 .map-container{
     width: max-content important!;
-    margin-left: 30%;
+    margin-left:7% ;
     margin-top:2.34%;
+}
+.map-container svg{
+    width: 1000px !important;
+    transform: scale(0.3);
+}
+.map-container path:hover{
+    fill: red;
 }
