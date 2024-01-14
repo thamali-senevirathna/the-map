@@ -1,6 +1,6 @@
 import React from "react";
 // import SriLankaMap from "./SriLankaMap";
-import WorldMap from "./WorldMap";
+import World from "./World.tsx";
 
 function App() {
 return(
@@ -9,7 +9,7 @@ return(
 {/* <h1 style={{position:"absolute", top:"110%",left:"60%"}}>Sri Lanka</h1> */}
 </header>
 <main>
- <WorldMap />
+    <World />
 </main>
   </div>
 );
