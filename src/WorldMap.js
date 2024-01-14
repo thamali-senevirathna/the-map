@@ -2,6 +2,10 @@ import React from 'react';
 import "./world.css";
 
 const WorldMap = () => {
+async function getDate(place){
+const url = `https://timezone.abstractapi.com/v1/current_time/?api_key=cd622b4427ad4cb1a2b78845142d0563&location=${place}`;
+}
+
   return (
     <>
   <div id='countriesName' style={{position:"absolute", left:"3%", top:"26%"}}>
