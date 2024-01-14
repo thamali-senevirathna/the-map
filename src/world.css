@@ -26,6 +26,7 @@ left: -76%;
     font-size: 1.3rem;
     border-radius: 5px;
     border: 3px solid palevioletred;
+    opacity: 0;
 }
 #time{
     background-color: aliceblue;
@@ -34,4 +35,11 @@ left: -76%;
    font-size: 1.3rem;
     border-radius: 5px;
     border: 3px solid palevioletred; 
+}
+
+svg path{
+    cursor: pointer;
+}
+svg path:hover{
+    fill: pink;
 }
