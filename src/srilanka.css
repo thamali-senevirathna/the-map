@@ -1,18 +1,20 @@
 body{
     background-color: rgb(183, 229, 245);
     margin: 0;
-    height: 100%;
-   overflow: hidden;
+    height: 30vh;
+ overflow-y: hidden;
 }
 svg {
     filter: drop-shadow(2px 19px 3px rgb(4 1 3 / 0.5));
     fill:#1b63ab;
+    position: relative;
   }
 
 .map-container{
     width: max-content important!;
     margin-left:7% ;
     margin-top:2.34%;
+    position: relative;
 }
 .map-container svg{
     width: 1000px !important;
@@ -20,4 +22,7 @@ svg {
 }
 .map-container path:hover{
     fill: red;
+}
+.location{
+    background-image: url(./images/location-lk.png);
 }
