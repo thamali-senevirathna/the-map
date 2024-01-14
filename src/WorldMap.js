@@ -8,7 +8,7 @@ const WorldMap = () => {
     <p id='name'>Name :</p>
   </div>
 
-  <div id='countriesTime' style={{position:"absolute",top:"33%",left:"3%"}}>
+  <div id='countriesTime' style={{position:"absolute",top:"34%",left:"3%"}}>
     <p id='time'>Time  :</p>
   </div>
 
