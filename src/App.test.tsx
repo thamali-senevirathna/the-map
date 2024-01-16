@@ -1,5 +1,7 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
-import World from './World';
+import World from './Compenets/World';
+
 
 test('renders learn react link', () => {
   render(<World />);
