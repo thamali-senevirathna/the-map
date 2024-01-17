@@ -1,6 +1,6 @@
 import React from "react";
-import SriLankaMap from "./components/SriLankaMap";
-import World from "./components/World";
+import SriLankaMap from "./components/SrilankanMap/SriLankaMap";
+import World from "./components/WorldMap/World";
 import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
 
  function App() {

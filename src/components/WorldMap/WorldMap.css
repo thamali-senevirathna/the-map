@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80vh;
+  height: 80vh;
+  background-color: rgb(57, 110, 117);
+}
+
+.world-container {
+  width: max-content !important;
+  position: absolute;
+  right: -25%;
+  transform: scale(0.59);
+  padding-top: 5%;
+  top: -35%;
+}
+#name {
+  position: "absolute";
+  left: "3%";
+  top: "10%";
+  width: max-content;
+  position: relative;
+  font-size: 1.7rem;
+  filter: drop-shadow(5px 10px 3px rgba(0, 0, 0, 0.8));
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  z-index: 1;
+  color: white;
+}
+
+.map-style {
+  fill: #ffffff54;
+  stroke: #acacac;
+  stroke-width: 0.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  backdrop-filter: blur(10px);
+  filter: drop-shadow(-10px 20px 3px rgba(0, 0, 0, 0.8));
+}
+.map-style path {
+  cursor: pointer;
+}
+.map-style path:hover {
+  fill: #0e4f50;
+  stroke: #0a5c5e;
+  filter: drop-shadow(5px 10px 3px rgba(0, 0, 0, 0.8));
+  transition: all 0.5s ease;
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 80vh;
+  height: 80vh;
+  background-color: rgb(18, 99, 109);
+}
+
+.lk-container {
+  width: max-content important!;
+  margin-left: 110%;
+  margin-top: 55px;
+  position: relative;
+  transform: scale(0.3);
+}
+
+#province-name {
+  width: max-content;
+  position: relative;
+  font-size: 1.1rem;
+  filter: drop-shadow(5px 10px 3px rgba(0, 0, 0, 0.8));
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  z-index: 1;
+  color: white;
+}
+.province:hover {
+  fill: #032a30;
+  stroke: none;
+}
+.lk-style {
+  position: absolute;
+  fill: #ffffff54;
+  stroke: #acacac;
+  stroke-width: 0.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  backdrop-filter: blur(10px);
+  filter: drop-shadow(-10px 20px 3px rgba(0, 0, 0, 0.8));
+}
+.lk-style path {
+  cursor: pointer;
+}
+.lk-style path:hover {
+  fill: #0e4f50;
+  stroke: #0a5c5e;
+  filter: drop-shadow(5px 10px 3px rgba(0, 0, 0, 0.8));
+  transition: all 0.5s ease;
+}
+.label {
+  position: "absolute";
+  font-size: "24px";
+  top: "30%";
+  left: "61%";
+}
