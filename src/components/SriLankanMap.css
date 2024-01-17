@@ -1,0 +1,17 @@
+
+.lk-container{
+    width: max-content important!;
+    margin-left:110% ;
+  margin-top: 55px;
+    position: relative;
+    transform:scale(0.3) ;
+}
+
+#province-name{
+  background-color: aliceblue;
+  width: max-content;
+  position: relative;
+  font-size: 0.5rem;
+  border-radius: 5px;
+  border: 3px solid palevioletred;
+}
